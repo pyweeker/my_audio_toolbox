@@ -1,0 +1,16 @@
+download audio from a youtube video:
+====================================
+
+youtube-dl --extract-audio --audio-format wav music_url_here
+
+
+
+you can crop extract:
+---------------------
+ffmpeg -i music_file_name_in.wav -ss 00:02:30 -to 00:05:27 -c copy music_file_name_out.wav
+
+(time example from hh:mm:ss to hh:mm:ss)
+
+
+>>> audacity to convert to ogg or mp3
+
