@@ -1,6 +1,10 @@
 download audio from a youtube video:
 ====================================
 
+youtube-dl --extract-audio --audio-format mp3 music_url_here
+
+
+
 youtube-dl --extract-audio --audio-format wav music_url_here
 
 
