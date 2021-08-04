@@ -1,0 +1,1 @@
+lmms -d file.mmpz > file.mmp
